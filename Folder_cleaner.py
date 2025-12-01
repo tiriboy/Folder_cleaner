@@ -14,9 +14,10 @@ Folder_types = {
 
 
 def main(path):
+  #check if the path exists and is a directory
   if not os.path.isdir(path):
     return "Path does not exist or is not a directory"
-
+  #create folders if they do not exist
   for folder in Folder_types.keys():
     folder_path = os.path.join(path,folder)
     if not os.path.isdir(folder_path):
