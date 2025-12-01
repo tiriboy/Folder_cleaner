@@ -1,6 +1,6 @@
 import os
 import sys
-
+#list of folder groups with their extensions
 Folder_types = {
   "Images": ['.png','.jpg', '.jpeg', '.gif'],
   "PDF": ['.pdf'],
